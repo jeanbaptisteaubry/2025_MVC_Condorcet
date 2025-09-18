@@ -1,0 +1,27 @@
+{
+  "name": "vendor_name/mvcjba",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "JB",
+      "email": "email@example.com"
+    }
+  ],
+  "require": { 
+    "ext-sodium": "*",
+    "ext-curl": "*", 
+    "slim/slim": "*",
+    "slim/psr7": "^1.7"
+  },
+  "autoload": { 
+    "file": [
+      "src/Vue/vue_entete.php",
+      "src/Vue/vue_basDePage.php"
+    ],
+    "psr-4": {
+      "App\\": "src"
+    }
+  }
+}
